@@ -20,8 +20,7 @@ if (process.env.NODE_ENV === 'dev' ) {
 }
 else
 {
-    urlDB = 'mongodb+srv://admin:46TUwfotvFuEoeeL@cluster0-sadea.mongodb.net/cafe?retryWrites=true&w=majority&ssl=false';
+    urlDB = "mongodb+srv://admin:123456parare@cluster0-sadea.mongodb.net/cafe";
 }
-urlDB = "mongodb+srv://admin:46TUwfotvFuEoeeL@cluster0-sadea.mongodb.net/cafe?retryWrites=true&w=majority";
 
 process.env.URLDB = urlDB;
