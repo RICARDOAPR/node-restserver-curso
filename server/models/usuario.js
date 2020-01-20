@@ -34,7 +34,7 @@ let usuarioSchema = new Schema({
         type: Boolean,
         default: true
     },
-    goolge: {
+    google: {
         type: Boolean,
         default: false
     }
